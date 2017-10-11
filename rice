@@ -1,0 +1,350 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("8ch.net") {
+/**
+ * amber.css
+ * For /cyber/ by user
+ */
+body {
+	background: #100000;
+	color: #FFAA00  ;
+	font-family: "Liberation Mono";
+	font-size: 12px;
+}
+
+.quote {
+    color:#FF7700 ;
+}
+
+element {
+    color: #FF7700;
+    text-decoration: none;
+}
+
+.dropzone {
+    color: #FF7700;
+    cursor: default;
+    margin: auto;
+    padding: 0px 4px;
+    text-align: center;
+    min-height: 50px;
+    max-height: 140px;
+    transition: all 0.2s ease 0s;
+    background: #100000;
+  	border: #FFAA00 1px solid;
+  	padding: 1px 1px;
+  	border-width: 1px;
+    border-style: solid solid solid solid;
+    border-color: #FFAA00;
+}
+
+.dropzone .remove-btn {
+    cursor: pointer;
+    color: rgba(255, 119, 0, 1);
+    display: inline-block;
+    vertical-align: bottom;
+    bottom: 10px;
+    position: relative;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.dropzone .remove-btn:hover {
+    cursor: pointer;
+    color: #AF0A0F;
+}
+
+.dropzone .file-hint {
+    color: rgba(255, 119, 0, 0.61);
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 5px;
+    padding: 10px 0px;
+        padding-top: 10px;
+        padding-right: 0px;
+        padding-bottom: 10px;
+        padding-left: 0px;
+    top: 5px;
+    transition: all 0.2s ease 0s;
+        transition-property: all;
+        transition-duration: 0.2s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+    border: 2px dashed rgba(145, 92, 0, 0.26);
+        border-top-width: 2px;
+        border-right-width: 2px;
+        border-bottom-width: 2px;
+        border-left-width: 2px;
+        border-top-style: dashed;
+        border-right-style: dashed;
+        border-bottom-style: dashed;
+        border-left-style: dashed;
+        border-top-color: rgba(145, 92, 0, 0.26);
+        border-right-color: rgba(145, 92, 0, 0.26);
+        border-bottom-color: rgba(145, 92, 0, 0.26);
+        border-left-color: rgba(145, 92, 0, 0.26);
+        -moz-border-top-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        border-image-source: none;
+        border-image-slice: 100% 100% 100% 100%;
+        border-image-width: 1 1 1 1;
+        border-image-outset: 0 0 0 0;
+        border-image-repeat: stretch stretch;
+}
+
+.file-hint:hover, .dropzone.dragover .file-hint {
+    color: #FF7700;
+    border-color: #FF7700;
+}
+
+
+
+h1 {
+	font-size: 20pt;
+	text-align: center;
+	letter-spacing: 0px;
+}
+div.title, h1 {
+	color: #FFAA00 ;
+	font-family: Arial, Helvetica, sans-serif;
+}
+div.title p {
+	font-size: 10px;
+}
+a:link, a:visited, .intro a.email span.name {
+	color: #FF7700;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+a:link:hover, a:visited:hover {
+	color: #FFAA00;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+
+a.post_no {
+	color: #FF7700 ;
+	text-decoration: none;
+}
+a.post_no:hover {
+	color: #FFAA00 !important;
+	text-decoration: underline overline;
+}
+div.post.reply {
+	background: #100000;
+	border: #FFAA00  1px solid;
+
+
+}
+div.post.reply.highlighted {
+	background: #100000;
+	border: #FF7700 1px solid;
+}
+div.post.reply div.body a:link, div.post.reply div.body a:visited {
+	color: #FF7700;
+}
+div.post.reply div.body a:link:hover, div.post.reply div.body a:visited:hover {
+	color: #FFAA00 ;
+}
+.intro span.subject {
+	font-size: 12px;
+	font-family: sans-serif;
+	color: #FF7700 ;
+	font-weight: 800;
+}
+
+.intro span.name {
+	color: #FF7700 ;
+	font-weight: 800;
+}
+.intro a.capcode, p.intro a.nametag {
+	color: magenta;
+	margin-left: 0;
+}
+.intro a.email, p.intro a.email span.name, p.intro a.email:hover, p.intro a.email:hover span.name {
+	color: #FF7700 ;
+}
+input[type="text"], textarea, select {
+	background: #100000;
+	color: #FFAA00 ;
+	border: #FFAA00 1px solid;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-family: sans-serif;
+	font-size: 10pt;
+}
+input[type="password"] {
+	background: #FFAA00 ;
+	color: #FFAA00 ;
+	border: #FFAA00 1px solid;
+}
+form table tr th {
+	background: #FFAA00 ;
+	color: #100000;
+	border: #FFAA00;
+	font-weight: 800;
+	text-align: left;
+	padding: 0;
+}
+div.banner {
+	background: #FF7700 ;
+	color: #100000;
+	text-align: center;
+	width: 250px;
+	padding: 4px;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 12px;
+}
+div.banner a {
+    color:#100000;
+}
+input[type="submit"] {
+	background: #FFAA00 ;
+	border: #FFAA00  1px solid;
+	color: #100000;
+}
+input[type="submit"]:hover {
+	background: #200000;
+	border: #FFAA00 1px solid;
+	color: #FF7700 ;
+}
+input[type="text"]:focus {
+    border:#FFAA00 1px solid;
+}
+p.fileinfo a:hover {
+	text-decoration: underline;
+}
+span.trip {
+	color: #FF7700 ;
+}
+div.pages {
+	color: #FF7700 ;
+	background: #100000;
+	border: #FFAA00 1px solid;
+	font-family: sans-serif;
+	font-size: 10pt;
+}
+div.pages a.selected {
+	color: #FFAA00;
+}
+hr {
+	height: 1px;
+	border: #FFAA00  1px solid;
+}
+div.boardlist {
+	color: #FFAA00 ;
+    background-color: #100000;
+}
+
+div.ban {
+	background-color: transparent;
+	border: transparent 0px solid;
+}
+div.ban h2 {
+	background: transparent;
+	color: lime;
+	font-size: 12px;
+}
+
+span.spoiler {
+  background: #FFAA00 none repeat scroll 1% 0%;
+	border: #FFAA00 1px solid;
+	padding: 1px 0px;
+	border-width: 1px;
+  border-style: solid solid solid solid;
+  border-color: #100000;
+  color: #FFAA00;
+	margin: auto;
+  display: inline-block;
+}
+
+div.post.reply div.body span.spoiler a {
+  color: #FFAA00;
+}
+
+span.spoiler:hover,div.post.reply div.body span.spoiler:hover a {
+  color: #FF7700;
+	background: #100000
+}
+
+
+table.modlog tr th {
+	background: #100000;
+	color: #FF7700 ;
+}
+
+.desktop-style div.boardlist:not(.bottom) {
+  text-shadow: #100000 1px 1px 1px, #100000 -1px -1px 1px, #100000 -1px 1px 1px, #100000 1px -1px 1px;
+  background-color: #100000;
+}
+
+
+.desktop-style div.boardlist:not(.bottom):hover, .desktop-style div.boardlist:not(.bottom).cb-menu {
+  background-color: #100000;
+}
+
+div.report {
+	color: #100000;
+}
+
+/* options.js */
+#options_div, #alert_div {
+	background: #100000;
+}
+.options_tab_icon {
+	color: #FF7700 ;
+}
+.options_tab_icon.active {
+	color: #100000;
+}
+
+#quick-reply table {
+	background: none repeat scroll 0% 0% #100000 !important;
+}
+
+.modlog tr:nth-child(even), .modlog th {
+	background-color: #100000;
+}
+
+
+
+.box {
+	background: #100000;
+	border-color: #200000;
+	color: #FFAA00;
+	border-radius: 10px;
+}
+.box-title {
+	background: transparent;
+	color: #FFAA00 ;
+}
+
+table thead th {
+	background: #100000;
+	border-color: #200000;
+	color: #100000;
+	border-radius: 4px;
+}
+table tbody tr:nth-of-type( even ) {
+	background-color: #100000;
+}
+
+table.board-list-table .board-uri .board-sfw {
+	color: #FFAA00;
+}
+tbody.board-list-omitted td {
+	background: #100000;
+	border-color: #200000;
+}
+
+table.board-list-table .board-tags .board-cell:hover {
+	background: #100000;
+}
+table.board-list-table tr:nth-of-type( even ) .board-tags .board-cell {
+	background: #100000;
+}
